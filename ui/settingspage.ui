@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsPage</class>
+ <widget class="QWidget" name="SettingsPage">
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="themeGroup">
+     <property name="title"><string>主题设置</string></property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0"><widget class="QLabel" name="themeLabel"><property name="text"><string>选择主题</string></property></widget></item>
+      <item row="0" column="1"><widget class="QComboBox" name="themeCombo"/></item>
+     </layout>
+    </widget>
+   </item>
+   <item><spacer name="vSpacer"><property name="orientation"><enum>Qt::Vertical</enum></property></spacer></item>
+  </layout>
+ </widget>
+</ui>

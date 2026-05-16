@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StatisticsPage</class>
+ <widget class="QWidget" name="StatisticsPage">
+  <layout class="QVBoxLayout" name="mainLayout">
+   <!-- 统计汇总 -->
+   <item>
+    <widget class="QGroupBox" name="summaryGroup">
+     <property name="title"><string>收支概览</string></property>
+     <layout class="QGridLayout" name="summaryGrid">
+      <item row="0" column="0"><widget class="QLabel" name="l1"><property name="text"><string>区间总收入：</string></property></widget></item>
+      <item row="0" column="1"><widget class="QLabel" name="totalIncomeLabel"><property name="text"><string>0.00</string></property></widget></item>
+      <item row="0" column="2"><widget class="QLabel" name="l2"><property name="text"><string>区间总支出：</string></property></widget></item>
+      <item row="0" column="3"><widget class="QLabel" name="totalExpenseLabel"><property name="text"><string>0.00</string></property></widget></item>
+      <item row="0" column="4"><widget class="QLabel" name="l3"><property name="text"><string>余额：</string></property></widget></item>
+      <item row="0" column="5"><widget class="QLabel" name="balanceLabel"><property name="text"><string>0.00</string></property></widget></item>
+      <item row="1" column="0"><widget class="QLabel" name="l4"><property name="text"><string>本月收入：</string></property></widget></item>
+      <item row="1" column="1"><widget class="QLabel" name="monthIncomeLabel"><property name="text"><string>0.00</string></property></widget></item>
+      <item row="1" column="2"><widget class="QLabel" name="l5"><property name="text"><string>本月支出：</string></property></widget></item>
+      <item row="1" column="3"><widget class="QLabel" name="monthExpenseLabel"><property name="text"><string>0.00</string></property></widget></item>
+      <item row="1" column="4"><widget class="QLabel" name="l6"><property name="text"><string>年度收入：</string></property></widget></item>
+      <item row="1" column="5"><widget class="QLabel" name="yearIncomeLabel"><property name="text"><string>0.00</string></property></widget></item>
+      <item row="2" column="4"><widget class="QLabel" name="l7"><property name="text"><string>年度支出：</string></property></widget></item>
+      <item row="2" column="5"><widget class="QLabel" name="yearExpenseLabel"><property name="text"><string>0.00</string></property></widget></item>
+     </layout>
+    </widget>
+   </item>
+
+   <!-- 日期范围 + 图表类型 -->
+   <item>
+    <layout class="QHBoxLayout" name="controlLayout">
+     <item><widget class="QLabel" name="startLabel"><property name="text"><string>开始日期</string></property></widget></item>
+     <item><widget class="QDateEdit" name="startDateEdit"><property name="calendarPopup"><bool>true</bool></property></widget></item>
+     <item><widget class="QLabel" name="endLabel"><property name="text"><string>结束日期</string></property></widget></item>
+     <item><widget class="QDateEdit" name="endDateEdit"><property name="calendarPopup"><bool>true</bool></property></widget></item>
+     <item><widget class="QComboBox" name="chartTypeCombo"/></item>
+     <item><widget class="QPushButton" name="refreshButton"><property name="text"><string>刷新</string></property></widget></item>
+    </layout>
+   </item>
+
+   <!-- 图表区域 -->
+   <item>
+    <widget class="QWidget" name="chartContainer">
+     <layout class="QVBoxLayout" name="chartLayout">
+      <property name="leftMargin"><number>0</number></property>
+      <property name="topMargin"><number>0</number></property>
+      <property name="rightMargin"><number>0</number></property>
+      <property name="bottomMargin"><number>0</number></property>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>

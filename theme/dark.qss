@@ -1,0 +1,110 @@
+/* Dark Theme - 深色主题 */
+QMainWindow, QWidget {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+QGroupBox {
+    border: 1px solid #555;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #333333;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px;
+    color: #aaa;
+}
+
+QPushButton {
+    background-color: #1b5e20;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+    min-width: 60px;
+}
+
+QPushButton:hover {
+    background-color: #2e7d32;
+}
+
+QPushButton:pressed {
+    background-color: #1b5e20;
+}
+
+QLineEdit, QComboBox, QDoubleSpinBox, QDateEdit, QSpinBox {
+    border: 1px solid #555;
+    border-radius: 3px;
+    padding: 4px 8px;
+    background-color: #3c3c3c;
+    color: #e0e0e0;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #3c3c3c;
+    color: #e0e0e0;
+    selection-background-color: #1b5e20;
+}
+
+QTableWidget {
+    background-color: #333333;
+    alternate-background-color: #3a3a3a;
+    gridline-color: #555;
+    color: #e0e0e0;
+    selection-background-color: #1b5e20;
+}
+
+QTableWidget::item {
+    padding: 4px;
+}
+
+QHeaderView::section {
+    background-color: #444444;
+    border: 1px solid #555;
+    padding: 4px;
+    color: #e0e0e0;
+}
+
+QProgressBar {
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    height: 24px;
+    background-color: #444;
+    color: #e0e0e0;
+}
+
+QTabWidget::pane {
+    border: 1px solid #555;
+    background-color: #2b2b2b;
+}
+
+QTabBar::tab {
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    padding: 6px 16px;
+    margin-right: 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #ccc;
+}
+
+QTabBar::tab:selected {
+    background-color: #2b2b2b;
+    border-bottom-color: #2b2b2b;
+}
+
+QLabel {
+    color: #e0e0e0;
+}
+
+QListWidget {
+    background-color: #333;
+    border: 1px solid #555;
+    color: #e0e0e0;
+}

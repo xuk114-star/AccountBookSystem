@@ -1,0 +1,19 @@
+# Qt 编译产物
+*.o
+*.obj
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile
+.qmake.stash
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# App Bundle
+*.app/
+
+# 用户数据库（不要上传）
+data/*.db
+.qtcreator/*
