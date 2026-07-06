@@ -101,3 +101,9 @@ password         │   name               type                 monthly_budget
 ```
 
 默认分类（user_id=0）全局共享，用户自定义分类与默认分类合并显示。
+## 程序展示录屏
+
+链接:https://disk.pku.edu.cn/link/AA532F115AECA046BF91C5AF7FCBAE4F8B
+文件名：38_1780757439.mp4
+有效期限：永久有效
+提取码：Df2D
